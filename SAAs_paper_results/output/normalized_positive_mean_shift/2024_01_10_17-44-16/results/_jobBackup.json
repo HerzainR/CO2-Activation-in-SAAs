@@ -1,0 +1,31 @@
+{
+  "type" : "productWorkScheme",
+  "id" : "normalized_positive_mean_shift",
+  "workspaces" : [ {
+    "type" : "workspaceFromXarf",
+    "id" : "normalized_positive_mean_shift",
+    "datafile" : "normalized_positive_mean_shift.xarf",
+    "propScheme" : {
+      "type" : "standardPropScheme",
+      "defaultMetricRule" : {
+        "type" : "kmeansPropRule",
+        "numberOfCutoffs" : 12,
+        "maxNumberOfIterations" : 1000
+      }
+    }
+  } ],
+  "computations" : [ {
+    "type" : "legacyComputation",
+    "id" : "subgroup_analysis",
+    "algorithm" : "EMM_SAMPLER",
+    "parameters" : {
+      "num_seeds" : "500000",
+      "dev_measure" : "normalized_positive_mean_shift",
+      "cov_weight" : "1.0",
+      "attr_filter" : "[]",
+      "num_res" : "15000",
+      "targets" : "[max_d_CO]"
+    }
+  } ],
+  "computationTimeLimit" : 360000
+}

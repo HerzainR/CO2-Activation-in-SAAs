@@ -1,0 +1,17 @@
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.common.parameter.ParameterContainer lambda$pass$4
+WARNING: Parameter value of cov_weight could not be passed to container.
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.run.LegacyComputationSpecification build
+INFO: accepted parameter values:
+table=normalized_positive_mean_shift
+targets=[max_d_CO]
+modeling=Empirical distribution
+dev_measure=norm. pos. mean shift
+controls=Optional.empty
+props=Statements about normalized_positive_mean_shift
+attr_filter=[]
+obj_func=frequency times deviation
+num_res=15000
+num_seeds=500000
+seed_dist=P(x)=freq(x)^a
+a=1
+post_proc=LinearRandomPruner

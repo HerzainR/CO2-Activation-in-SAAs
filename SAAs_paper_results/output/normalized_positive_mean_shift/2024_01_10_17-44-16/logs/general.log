@@ -1,0 +1,20 @@
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.data.xarf.XarfParsing parse
+INFO: Parsing input file
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.data.xarf.XarfParsing parse
+INFO: Done parsing ARFF file
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.data.table.CSV csvStringListToListOfLists
+INFO: Done reading data (199 number of rows)
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.data.xarf.Xarf attributes
+INFO: Done creating attributes (25 attributes created)
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.data.xarf.Xarf derivedAttributes
+INFO: Done creating derived attributes (0 derived attributes created)
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.data.propositions.StandardPropositionalizationScheme apply
+INFO: Done compiling proposition list (600 propositions added)
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.common.workspace.Workspaces$WorkspaceWithFileBackups storeInFile
+INFO: writing backup: population_of_normalized_positive_mean_shift
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.common.workspace.Workspaces$WorkspaceWithFileBackups storeInFile
+INFO: writing backup: normalized_positive_mean_shift
+Jan 10, 2024 5:44:16 PM de.unibonn.realkd.common.workspace.Workspaces$WorkspaceWithFileBackups storeInFile
+INFO: writing backup: statements_about_normalized_positive_mean_shift
+Jan 10, 2024 5:48:52 PM de.unibonn.realkd.common.workspace.Workspaces$WorkspaceWithFileBackups storeInFile
+INFO: writing backup: $results_of_subgroup_analysis

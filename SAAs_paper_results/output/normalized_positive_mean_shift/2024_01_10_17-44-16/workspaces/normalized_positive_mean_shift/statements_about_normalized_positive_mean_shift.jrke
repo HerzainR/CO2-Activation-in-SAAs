@@ -1,0 +1,1809 @@
+{
+  "type" : "de.unibonn.realkd.data.propositions.DefaultTableBasedPropositionalLogic$DefaultTableBasedPropositionalLogicSerialForm",
+  "identifier" : "statements_about_normalized_positive_mean_shift",
+  "name" : "Statements about normalized_positive_mean_shift",
+  "description" : "Propositional logic generated using mappers: [de.unibonn.realkd.data.propositions.KMeansPropositionalizationRule@464649c, CATEGORIC_EQUALITY, SMART_DISCRETE_ORDINAL]",
+  "tableIdentifier" : "normalized_positive_mean_shift",
+  "attributeIndices" : [ "java.util.ArrayList", [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24 ] ],
+  "constraints" : [ "java.util.ArrayList", [ {
+    "type" : "lessThan",
+    "value" : 1.775
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.775
+  }, {
+    "type" : "lessThan",
+    "value" : 2.05
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.05
+  }, {
+    "type" : "lessThan",
+    "value" : 1.9
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.9
+  }, {
+    "type" : "lessThan",
+    "value" : 1.9
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.9
+  }, {
+    "type" : "lessThan",
+    "value" : 1.9
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.9
+  }, {
+    "type" : "lessThan",
+    "value" : 2.2
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "lessThan",
+    "value" : 8.0315
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 8.0315
+  }, {
+    "type" : "lessThan",
+    "value" : 7.726
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.726
+  }, {
+    "type" : "lessThan",
+    "value" : 7.726
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.726
+  }, {
+    "type" : "lessThan",
+    "value" : 7.726
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.726
+  }, {
+    "type" : "lessThan",
+    "value" : 8.337
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 8.337
+  }, {
+    "type" : "lessThan",
+    "value" : 8.337
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 8.337
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.337
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.337
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.337
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.337
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.337
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.337
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.337
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.337
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.337
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.337
+  }, {
+    "type" : "greaterThan",
+    "value" : 9.394
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 9.394
+  }, {
+    "type" : "lessThan",
+    "value" : 0.2785
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.2785
+  }, {
+    "type" : "lessThan",
+    "value" : 0.8925000000000001
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.8925000000000001
+  }, {
+    "type" : "lessThan",
+    "value" : 0.557
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.557
+  }, {
+    "type" : "lessThan",
+    "value" : 0.557
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.557
+  }, {
+    "type" : "lessThan",
+    "value" : 0.557
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.557
+  }, {
+    "type" : "lessThan",
+    "value" : 0.557
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.557
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.557
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.557
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.557
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.557
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.228
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.228
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.228
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.228
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.228
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.228
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.228
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.228
+  }, {
+    "type" : "lessThan",
+    "value" : 1.15195
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.15195
+  }, {
+    "type" : "lessThan",
+    "value" : 1.3032
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.3032
+  }, {
+    "type" : "lessThan",
+    "value" : 1.1989
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.1989
+  }, {
+    "type" : "lessThan",
+    "value" : 1.1989
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.1989
+  }, {
+    "type" : "lessThan",
+    "value" : 1.1989
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.1989
+  }, {
+    "type" : "lessThan",
+    "value" : 1.4075
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.4075
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.4075
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.4075
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.4075
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.4075
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.4075
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.4075
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.4075
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.4075
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.4075
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.4075
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.4075
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.4075
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.30945
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.30945
+  }, {
+    "type" : "lessThan",
+    "value" : 0.44984999999999997
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.44984999999999997
+  }, {
+    "type" : "lessThan",
+    "value" : 0.3191
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.3191
+  }, {
+    "type" : "lessThan",
+    "value" : 0.3191
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.3191
+  }, {
+    "type" : "lessThan",
+    "value" : 0.3191
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.3191
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.5806
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.5806
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.5806
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.5806
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.5806
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.5806
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "lessThan",
+    "value" : 0.8428
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.8428
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.5806
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.5806
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.105
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.105
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.1989
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.1989
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.1989
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.1989
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.1989
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.1989
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.1989
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.1989
+  }, {
+    "type" : "lessThan",
+    "value" : 1.73
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.73
+  }, {
+    "type" : "lessThan",
+    "value" : 1.89
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.89
+  }, {
+    "type" : "lessThan",
+    "value" : 2.055
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.055
+  }, {
+    "type" : "lessThan",
+    "value" : 2.24
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.24
+  }, {
+    "type" : "lessThan",
+    "value" : 2.2
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "lessThan",
+    "value" : 2.2
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.28
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.28
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.28
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.28
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.28
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.28
+  }, {
+    "type" : "lessThan",
+    "value" : 6.68
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 6.68
+  }, {
+    "type" : "lessThan",
+    "value" : 7.5495
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.5495
+  }, {
+    "type" : "lessThan",
+    "value" : 7.683
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.683
+  }, {
+    "type" : "lessThan",
+    "value" : 7.459
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.459
+  }, {
+    "type" : "lessThan",
+    "value" : 7.64
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.64
+  }, {
+    "type" : "lessThan",
+    "value" : 7.726
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.726
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.337
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.337
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.7
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.7
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.7
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.7
+  }, {
+    "type" : "greaterThan",
+    "value" : 9.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 9.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 9.1
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 9.1
+  }, {
+    "type" : "greaterThan",
+    "value" : 9.1
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 9.1
+  }, {
+    "type" : "lessThan",
+    "value" : 0.4285
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.4285
+  }, {
+    "type" : "lessThan",
+    "value" : 0.8555
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.8555
+  }, {
+    "type" : "lessThan",
+    "value" : 1.0750000000000002
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.0750000000000002
+  }, {
+    "type" : "lessThan",
+    "value" : 1.1185
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.1185
+  }, {
+    "type" : "lessThan",
+    "value" : 1.1465
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.1465
+  }, {
+    "type" : "lessThan",
+    "value" : 1.1465
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.1465
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.156
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.156
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.137
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.137
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.156
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.156
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.565
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.565
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.565
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.565
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.128
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.128
+  }, {
+    "type" : "lessThan",
+    "value" : 1.15195
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.15195
+  }, {
+    "type" : "lessThan",
+    "value" : 1.2609
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.2609
+  }, {
+    "type" : "lessThan",
+    "value" : 1.2797999999999998
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.2797999999999998
+  }, {
+    "type" : "lessThan",
+    "value" : 1.29125
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.29125
+  }, {
+    "type" : "lessThan",
+    "value" : 1.291
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.291
+  }, {
+    "type" : "lessThan",
+    "value" : 1.2915
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.2915
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.3127
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.3127
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.3127
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.3127
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.4075
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.4075
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.4462
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.4462
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.4462
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.4462
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.4756
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.4756
+  }, {
+    "type" : "lessThan",
+    "value" : 0.6699
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.6699
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.0
+  }, {
+    "type" : "lessThan",
+    "value" : 0.32845
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.32845
+  }, {
+    "type" : "lessThan",
+    "value" : 0.3484
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.3484
+  }, {
+    "type" : "lessThan",
+    "value" : 0.4698
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.4698
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5968
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5968
+  }, {
+    "type" : "lessThan",
+    "value" : 0.63015
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.63015
+  }, {
+    "type" : "lessThan",
+    "value" : 0.613
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.613
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.6473
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.6473
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.6473
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.6473
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.6705
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.6705
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.6938
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.6938
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.6938
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.6938
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.7191
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.7191
+  }, {
+    "type" : "lessThan",
+    "value" : 0.3484
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.3484
+  }, {
+    "type" : "lessThan",
+    "value" : 0.4698
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.4698
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5968
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5968
+  }, {
+    "type" : "lessThan",
+    "value" : 0.63015
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.63015
+  }, {
+    "type" : "lessThan",
+    "value" : 0.613
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.613
+  }, {
+    "type" : "lessThan",
+    "value" : 0.6473
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.6473
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.6705
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.6705
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.6705
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.6705
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.6938
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.6938
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.6938
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.6938
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.7191
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.7191
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.105
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.105
+  }, {
+    "type" : "lessThan",
+    "value" : 1.84665
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.84665
+  }, {
+    "type" : "lessThan",
+    "value" : 1.945
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.945
+  }, {
+    "type" : "lessThan",
+    "value" : 2.01585
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.01585
+  }, {
+    "type" : "lessThan",
+    "value" : 2.045
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.045
+  }, {
+    "type" : "lessThan",
+    "value" : 2.0525
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.0525
+  }, {
+    "type" : "lessThan",
+    "value" : 2.07625
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.07625
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.1637500000000003
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.1637500000000003
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.21
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.21
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.22335
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.22335
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2267
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2267
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.24
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.24
+  }, {
+    "type" : "lessThan",
+    "value" : 7.50125
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.50125
+  }, {
+    "type" : "lessThan",
+    "value" : 7.7285
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.7285
+  }, {
+    "type" : "lessThan",
+    "value" : 7.82625
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.82625
+  }, {
+    "type" : "lessThan",
+    "value" : 7.9496
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.9496
+  }, {
+    "type" : "lessThan",
+    "value" : 8.06865
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 8.06865
+  }, {
+    "type" : "lessThan",
+    "value" : 8.1567
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 8.1567
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.280000000000001
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.280000000000001
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.442250000000001
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.442250000000001
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.54285
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.54285
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.652999999999999
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.652999999999999
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.779150000000001
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.779150000000001
+  }, {
+    "type" : "greaterThan",
+    "value" : 9.031400000000001
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 9.031400000000001
+  }, {
+    "type" : "lessThan",
+    "value" : 0.42315
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.42315
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5627500000000001
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5627500000000001
+  }, {
+    "type" : "lessThan",
+    "value" : 0.64465
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.64465
+  }, {
+    "type" : "lessThan",
+    "value" : 0.7655
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.7655
+  }, {
+    "type" : "lessThan",
+    "value" : 0.8187500000000001
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.8187500000000001
+  }, {
+    "type" : "lessThan",
+    "value" : 0.8745
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.8745
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.91875
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.91875
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.02715
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.02715
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.1185
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.1185
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.1756000000000002
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.1756000000000002
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.27515
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.27515
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.5465
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.5465
+  }, {
+    "type" : "lessThan",
+    "value" : 1.79665
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.79665
+  }, {
+    "type" : "lessThan",
+    "value" : 1.9078
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.9078
+  }, {
+    "type" : "lessThan",
+    "value" : 1.91835
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.91835
+  }, {
+    "type" : "lessThan",
+    "value" : 1.9294
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.9294
+  }, {
+    "type" : "lessThan",
+    "value" : 2.05085
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.05085
+  }, {
+    "type" : "lessThan",
+    "value" : 2.1698
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.1698
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.19375
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.19375
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.202
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.202
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2041000000000004
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2041000000000004
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.2057
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.2057
+  }, {
+    "type" : "lessThan",
+    "value" : 7.709899999999999
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.709899999999999
+  }, {
+    "type" : "lessThan",
+    "value" : 7.7494
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.7494
+  }, {
+    "type" : "lessThan",
+    "value" : 7.82815
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 7.82815
+  }, {
+    "type" : "lessThan",
+    "value" : 8.02
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 8.02
+  }, {
+    "type" : "lessThan",
+    "value" : 8.192499999999999
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 8.192499999999999
+  }, {
+    "type" : "lessThan",
+    "value" : 8.270700000000001
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 8.270700000000001
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.307549999999999
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.307549999999999
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.34655
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.34655
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.3735
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.3735
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.40655
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.40655
+  }, {
+    "type" : "greaterThan",
+    "value" : 8.840599999999998
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 8.840599999999998
+  }, {
+    "type" : "greaterThan",
+    "value" : 9.325099999999999
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 9.325099999999999
+  }, {
+    "type" : "lessThan",
+    "value" : 0.33130000000000004
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.33130000000000004
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5414
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5414
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5730500000000001
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5730500000000001
+  }, {
+    "type" : "lessThan",
+    "value" : 0.58885
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.58885
+  }, {
+    "type" : "lessThan",
+    "value" : 0.5974999999999999
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.5974999999999999
+  }, {
+    "type" : "lessThan",
+    "value" : 0.61575
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.61575
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.6481
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.6481
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.9299999999999999
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.9299999999999999
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.18595
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.18595
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.2088999999999999
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.2088999999999999
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.23515
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.23515
+  }, {
+    "type" : "greaterThan",
+    "value" : 1.28515
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 1.28515
+  }, {
+    "type" : "lessThan",
+    "value" : 4.541650000000001
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 4.541650000000001
+  }, {
+    "type" : "lessThan",
+    "value" : 4.875
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 4.875
+  }, {
+    "type" : "lessThan",
+    "value" : 5.166650000000001
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 5.166650000000001
+  }, {
+    "type" : "lessThan",
+    "value" : 5.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 5.0
+  }, {
+    "type" : "lessThan",
+    "value" : 5.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 5.0
+  }, {
+    "type" : "lessThan",
+    "value" : 5.3333
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 5.3333
+  }, {
+    "type" : "greaterThan",
+    "value" : 5.6667
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 5.6667
+  }, {
+    "type" : "greaterThan",
+    "value" : 6.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 6.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 6.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 6.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 6.5
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 6.5
+  }, {
+    "type" : "greaterThan",
+    "value" : 6.5
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 6.5
+  }, {
+    "type" : "greaterThan",
+    "value" : 7.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 7.0
+  }, {
+    "type" : "lessThan",
+    "value" : 5.402799999999999
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 5.402799999999999
+  }, {
+    "type" : "lessThan",
+    "value" : 5.458349999999999
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 5.458349999999999
+  }, {
+    "type" : "lessThan",
+    "value" : 5.625
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 5.625
+  }, {
+    "type" : "lessThan",
+    "value" : 5.80555
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 5.80555
+  }, {
+    "type" : "lessThan",
+    "value" : 5.8731
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 5.8731
+  }, {
+    "type" : "lessThan",
+    "value" : 5.95
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 5.95
+  }, {
+    "type" : "greaterThan",
+    "value" : 6.0476
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 6.0476
+  }, {
+    "type" : "greaterThan",
+    "value" : 6.3599
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 6.3599
+  }, {
+    "type" : "greaterThan",
+    "value" : 6.64105
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 6.64105
+  }, {
+    "type" : "greaterThan",
+    "value" : 6.74245
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 6.74245
+  }, {
+    "type" : "greaterThan",
+    "value" : 7.0369
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 7.0369
+  }, {
+    "type" : "greaterThan",
+    "value" : 7.3333
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 7.3333
+  }, {
+    "type" : "lessThan",
+    "value" : 1.5
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 1.5
+  }, {
+    "type" : "lessThan",
+    "value" : 2.5
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.5
+  }, {
+    "type" : "lessThan",
+    "value" : 2.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.0
+  }, {
+    "type" : "lessThan",
+    "value" : 2.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.0
+  }, {
+    "type" : "lessThan",
+    "value" : 2.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.0
+  }, {
+    "type" : "lessThan",
+    "value" : 2.0
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 3.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 3.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 3.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 3.0
+  }, {
+    "type" : "greaterThan",
+    "value" : 4.0
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 4.0
+  }, {
+    "type" : "lessThan",
+    "value" : 2.5294999999999996
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.5294999999999996
+  }, {
+    "type" : "lessThan",
+    "value" : 2.529
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.529
+  }, {
+    "type" : "lessThan",
+    "value" : 2.529
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.529
+  }, {
+    "type" : "lessThan",
+    "value" : 2.53
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.53
+  }, {
+    "type" : "lessThan",
+    "value" : 2.611
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.611
+  }, {
+    "type" : "lessThan",
+    "value" : 2.749
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 2.749
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.749
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.749
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.749
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.749
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.749
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.749
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.749
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.749
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.749
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.749
+  }, {
+    "type" : "greaterThan",
+    "value" : 2.749
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 2.749
+  }, {
+    "type" : "lessThan",
+    "value" : 0.06129999999999999
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.06129999999999999
+  }, {
+    "type" : "lessThan",
+    "value" : 0.07235
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.07235
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0813
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0813
+  }, {
+    "type" : "lessThan",
+    "value" : 0.0875
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.0875
+  }, {
+    "type" : "lessThan",
+    "value" : 0.09259999999999999
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.09259999999999999
+  }, {
+    "type" : "lessThan",
+    "value" : 0.09745000000000001
+  }, {
+    "type" : "greaterOrEquals",
+    "value" : 0.09745000000000001
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.10195
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.10195
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.1063
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.1063
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.1138
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.1138
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.12375
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.12375
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.1401
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.1401
+  }, {
+    "type" : "greaterThan",
+    "value" : 0.1774
+  }, {
+    "type" : "lessOrEquals",
+    "value" : 0.1774
+  } ] ]
+}
