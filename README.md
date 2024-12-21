@@ -8,10 +8,12 @@ The provided information is divided in three folders:
 This folder contain .csv files with the full lists of candidate and selected SA and DA alloy surface sites. In particular, the lists refer to the results displayed in Table 3.
 
 SAAs
+
 Total candidate sites: 60
 Sites selected by the rules: 23
 
 DAAs
+
 Total candidate sites:1,488
 Sites selected by the rules: 383
 
