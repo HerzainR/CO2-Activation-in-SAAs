@@ -10,11 +10,13 @@ This folder contain .csv files with the full lists of candidate and selected SA 
 SAAs
 
 Total candidate sites: 60
+
 Sites selected by the rules: 23
 
 DAAs
 
 Total candidate sites:1,488
+
 Sites selected by the rules: 383
 
 2. SAAs_paper_results/
