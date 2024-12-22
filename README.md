@@ -1,7 +1,7 @@
 # CO2-Activation-in-SAAs
 This repository contains supporting information related to the work titled "Rules Describing CO2 Activation on Single-Atom Alloys from DFT-meta-GGA Calculations and Artificial Intelligence"
 
-The provided information is divided in three folders:
+The provided information is divided into three folders:
 
 1. screening_candidates/
 
@@ -23,7 +23,7 @@ Sites selected by the rules: 383
 
 The results of the SGD analysis described in the paper are provided in the folder output/
 
-Additionally, we provide a jupyter notebook mented extract the information of the output/ folder and reproduce the SGD results discussed in the paper:
+Additionally, the Jupyter notebook in this folder allows extracting the information in the output/ folder and reproducing the SGD results discussed in the paper.
 
 CO2_activation_rules_by_SGD.ipynb
 
