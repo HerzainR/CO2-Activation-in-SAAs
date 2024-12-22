@@ -23,12 +23,16 @@ Sites selected by the rules: 383
 
 The results of the SGD analysis described in the paper are provided in the folder output/
 
-Additionally, the Jupyter notebook in this folder allows extracting the information in the output/ folder and reproducing the SGD results discussed in the paper.
+Additionally, the Jupyter Notebook in this folder allows the extraction of the information in the output/ folder and the reproduction of the SGD results discussed in the paper.
 
 CO2_activation_rules_by_SGD.ipynb
 
 
 3. run_SGD
 
-The folder has the python script script_sgd_realK.py, which allows to run SGD with realKD. The realKD version used to perfomed the studies in our work is also provided (reakKD folder).  
+The folder has the python script script_sgd_realK.py, which allows running SGD with realKD. 
+
+The realKD version used to perform the studies in our work is also provided (realKD folder). The webpage of realKD is
+
+https://bitbucket.org/realKD/realkd/wiki/Home 
 
